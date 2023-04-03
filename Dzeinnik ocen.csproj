@@ -1,0 +1,18 @@
+< Projekt SDK = " Microsoft.NET. SDK " >
+
+< Grupa właściwości >
+< Typ Wyjścia > Exe </ Typ Wyjścia >
+< TargetFramework > netcoreapp3.1 </ TargetFramework >
+< Obiekt startowy />
+</ Grupa właściwości >
+
+< Grupa pozycji >
+< Brak Usuń = " *.gdbk " />
+</ Grupa pozycji >
+
+< Grupa pozycji >
+< PackageReference Include = " Newtonsoft.Json " Version = " 10.0.3 " />
+< PackageReference Include = " xunit " Version = " 2.3.1 " />
+</ Grupa pozycji >
+
+</ Projekt >
